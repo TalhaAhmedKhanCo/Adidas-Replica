@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="nav_aby">
+  <img class="logo_me" src="adidas-logo-adidas-icon-free-free-vector.jpg" alt="">
+  <div class="menu-icon" onclick="openMenu()">☰</div>
+  <input type="text" placeholder="Search..." class="search-input">
+  <ul class="nav_ulab">
+    <a href="index.html" class="nav_li">Home</a>
+    <a href="index.html#productsaby" class="nav_li">Products</a>
+    <a href="about.html" class="nav_li">About</a>
+    <a href="contact.html" class="nav_li">Contact</a>
+  </ul>
+  <div class="Cartaby">
+    <button class="btn btn-primary" id="btnaby">Cart</button>
+    <img id="imgaby" src="shopping_cart_PNG4.png" alt="">
+  </div>
+</div>
+
+<div id="mobileMenu" class="mobile-menu">
+  <span class="close-btn" onclick="closeMenu()">×</span>
+  <a href="index.html">Home</a>
+  <a href="index.html#productsaby">Products</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- Hero Section -->
+<div style="
+  height:700px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url('lionel-messi-football-barcelona-hd-wallpaper-thumb.jpg');
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  padding-left:100px;
+">
+  <h1 style="color:white;font-size:60px;">About Us</h1>
+</div>
+
+<!-- Content -->
+<div class="container py-5">
+  <div class="row g-4">
+    <div class="col-md-6">
+      <h2>Who We Are</h2>
+      <p style="font-size:18px;line-height:1.8;">
+        This website is created by <strong>Talha Ahmed Khan</strong>, a passionate learner who is
+        currently learning website development. This project focuses on building real-world
+        layouts using HTML, CSS, Bootstrap, and JavaScript.
+      </p>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card p-4 shadow">
+        <h4>Our Goal</h4>
+        <p style="font-size:17px;">
+          To design modern, responsive, and user-friendly websites while improving front-end
+          development skills and understanding professional UI design.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="row text-center mt-5">
+    <div class="col-md-4">
+      <h1>20+</h1>
+      <p>Products</p>
+    </div>
+    <div class="col-md-4">
+      <h1>100%</h1>
+      <p>Learning Focused</p>
+    </div>
+    <div class="col-md-4">
+      <h1>1</h1>
+      <p>Developer</p>
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="footeraby">
+  <div class="footer-container">
+
+    <!-- Logo & About -->
+    <div class="footer-col">
+      <img src="adidas-logo-adidas-icon-free-free-vector.jpg" alt="Logo" class="footer-logo">
+      <p>
+        This website is created by <strong>Talha Ahmed Khan</strong>, a learner in website development,
+        focused on building clean and modern web designs.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="index.html#productsaby">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>Email: talha.collabx@email.com</p>
+      <p>Location: Pakistan</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Talha Ahmed Khan. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+function openMenu() {
+    document.getElementById('mobileMenu').classList.add('active');
+}
+
+function closeMenu() {
+    document.getElementById('mobileMenu').classList.remove('active');
+}
+</script>
+</body>
+</html>

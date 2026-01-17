@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="nav_aby">
+  <img class="logo_me" src="adidas-logo-adidas-icon-free-free-vector.jpg" alt="">
+  <div class="menu-icon" onclick="openMenu()">☰</div>
+  <input type="text" placeholder="Search..." class="search-input">
+  <ul class="nav_ulab">
+    <a href="index.html" class="nav_li">Home</a>
+    <a href="index.html#productsaby" class="nav_li">Products</a>
+    <a href="about.html" class="nav_li">About</a>
+    <a href="contact.html" class="nav_li">Contact</a>
+  </ul>
+  <div class="Cartaby">
+    <button class="btn btn-primary" id="btnaby">Cart</button>
+    <img id="imgaby" src="shopping_cart_PNG4.png" alt="">
+  </div>
+</div>
+
+<div id="mobileMenu" class="mobile-menu">
+  <span class="close-btn" onclick="closeMenu()">×</span>
+  <a href="index.html">Home</a>
+  <a href="index.html#productsaby">Products</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- Hero -->
+<div style="
+  height:300px;
+  background: linear-gradient(90deg, #000000, #0c1046);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+">
+  <h1 style="color:white;font-size:50px;">Get in Touch</h1>
+</div>
+
+<!-- Contact Section -->
+<div class="container py-5">
+  <div class="row g-5">
+    <div class="col-md-5">
+      <h3>Contact Information</h3>
+      <p style="font-size:17px;">Have questions or feedback? Feel free to reach out.</p>
+      <p><strong>Email:</strong> talha.collabx@email.com</p>
+      <p><strong>Location:</strong> Pakistan</p>
+    </div>
+
+    <div class="col-md-7">
+      <div class="card p-4 shadow">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Your Email">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+          </div>
+          <button class="btn btn-primary w-100">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<footer class="footeraby">
+  <div class="footer-container">
+
+    <!-- Logo & About -->
+    <div class="footer-col">
+      <img src="adidas-logo-adidas-icon-free-free-vector.jpg" alt="Logo" class="footer-logo">
+      <p>
+        This website is created by <strong>Talha Ahmed Khan</strong>, a learner in website development,
+        focused on building clean and modern web designs.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="index.html#productsaby">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>Email: talha.collabx@email.com</p>
+      <p>Location: Pakistan</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Talha Ahmed Khan. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+function openMenu() {
+    document.getElementById('mobileMenu').classList.add('active');
+}
+
+function closeMenu() {
+    document.getElementById('mobileMenu').classList.remove('active');
+}
+</script>
+</body>
+</html>
